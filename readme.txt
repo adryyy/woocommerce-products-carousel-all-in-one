@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 WooCommerce Products Carousel all in one is a widget and shortcode generator to show new, featured or popular products in carousel by Owl Carousel engine
 == Description ==
 
-**WooCommerce Products Carousel all in one** will allow you to create custom shortcode, or add widget that display carousel of WooCommerce products (new, featured or popular).
+**WooCommerce Products Carousel all in one** allows you inserting the product carousel (recommended, newest or bestsellers) from the store based on the WooCommerce. The plugin offers rich parameters of carousel display and entry information, and provides better support for mobile devices.
 
 = Requires =
 * WooCommerce 2.0.x
@@ -36,7 +36,7 @@ I will be grateful for opinions and reviews.
 
 == Installation ==
 
-1. Upload plugin either via the your's Wordpress installation, or by uploading to the /wp-content/plugins/ by FTP client
+1. Upload plugin either via the your's WordPress installation, or by uploading to the /wp-content/plugins/ by FTP client
 2. Install the plugin through the 'Plugins' menu in WordPress.
 3. Activate "WooCommerce Products Carousel all in one" in the "Plugins" using the "Activate" link.
 4. Go to the plugin settings page in the "Settings" menu.

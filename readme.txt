@@ -7,23 +7,22 @@ Tested up to: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WooCommerce Products Carousel all in one is a widget and shortcode generator to show new, featured or popular products in carousel by Owl Carousel engine
+WooCommerce Products Carousel all in one is a widget and shortcode generator to show new, featured or popular products in Owl Carousel
 == Description ==
 
 **WooCommerce Products Carousel all in one** allows you inserting the product carousel (recommended, newest or bestsellers) from the store based on the WooCommerce. The plugin offers rich parameters of carousel display and entry information, and provides better support for mobile devices.
+This plugin uses [OWL Carousel](http://www.owlcarousel.owlgraphic.com/) in new version 2.0.0-beta.2.4.
 
-= Requires =
-* WooCommerce 2.0.x
-
-= Now available in the following Languages = 
+= Now available in the following Languages: = 
 
 * English (en_EN)
 * Polish (pl_PL)
 
 
-For more information, check out plugin page at [Teastudio.pl](http://www.teastudio.pl/product/woocommerce-products-carousel-all-in-one/).
+For more information, check out [PLUGIN HOMEPAGE](http://www.teastudio.pl/en/product/woocommerce-products-carousel-all-in-one/).
 
-This plugin uses [OWL Carousel](http://www.owlcarousel.owlgraphic.com/) in new version 2.0.0-beta.2.4.
+= DEMO =
+You can see the plugin in action on [DEMO PAGE](http://wordpress.teastudio.pl/category/woocommerce-products-carousel-all-in-one/)
 
 
 I will be grateful for opinions and reviews.

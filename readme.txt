@@ -62,6 +62,10 @@ Folders tree should looks like this:
 4. Example of usage
 
 == Changelog ==
+= 1.0.1 =
+* fixed verification requirements
+* fixed custom theme dir
+* FAQ update
 = 1.0.0 =
 Initial release
 

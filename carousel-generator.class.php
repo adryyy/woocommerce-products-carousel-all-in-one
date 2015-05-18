@@ -73,11 +73,22 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                 /*
                  * check if template css file exists
                  */
-                $theme_url = plugins_url( dirname(plugin_basename(__FILE__)) ) . '/templates/' . $theme .'.css';
-                $theme_file = plugin_dir_path( __FILE__ ) . '/templates/'. $theme . '.css'; 
+                $theme =  $params['template'];
+                $theme_name = str_replace('.css', '', $theme);
 
-                if ( @file_exists($theme_file) ) {
-                        wp_enqueue_style( 'woocommerce_products_carousel_all_in_one-carousel-style-'. $theme, $theme_url, true );
+                /*
+                 * check if template css file exists
+                 */
+                $plugin_theme_url = plugins_url( dirname(plugin_basename(__FILE__)) ) . '/templates/' . $theme;
+                $plugin_theme_file = plugin_dir_path( __FILE__ ) . '/templates/'. $theme;
+                
+                $site_theme_url = get_template_directory_uri() . '/css/woocommerce_products_carousel_all_in_one/' . $theme;
+                $site_theme_file = get_template_directory() . '/css/woocommerce_products_carousel_all_in_one/' . $theme;                
+
+                if ( @file_exists($plugin_theme_file) ) {
+                        wp_enqueue_style( 'woocommerce_products_carousel_all_in_one-carousel-style-'. $theme_name, $plugin_theme_url, true );
+                } else if ( @file_exists($site_theme_file) ) {
+                        wp_enqueue_style( 'woocommerce_products_carousel_all_in_one-carousel-style-'. $theme_name, $site_theme_url, true );                        
                 } else {
                     return '<div class="error"><p>'. printf( __('Theme - %.css stylesheet is missing.', 'woocommerce-products-carousel-all-in-one'), $theme ) .'</p></div>'; 
                 }        
@@ -85,7 +96,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                 /*
                  * prepare html and loop
                  */
-                $out = '<div id="woocommerce-products-carousel-all-in-one-'. $params['id'] .'" class="'. $theme .'-theme woocommerce-products-carousel-all-in-one owl-carousel">';
+                $out = '<div id="woocommerce-products-carousel-all-in-one-'. $params['id'] .'" class="'. $theme_name .'-theme woocommerce-products-carousel-all-in-one owl-carousel">';
 
                 /*
                  * prepare sql query

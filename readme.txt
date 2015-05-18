@@ -43,6 +43,18 @@ I will be grateful for opinions and reviews.
 == Frequently Asked Questions ==
 If you've got any questions, don't hesitate to ask.
 
+
+= How can I add custom theme? =
+
+1. Now, you can add your custom stylesheet in your's theme directory.
+2. If you don't have "css" folder in your WordPress theme, you must create it.
+3. Then, in this folder create another - named "woocommerce_products_carousel_all_in_one" and now you can move custom stylesheets in there :)
+
+Folders tree should looks like this: 
+`/themes/my_wordpress_theme/css/woocommerce_products_carousel_all_in_one/custom.css`
+
+
+
 == Screenshots ==
 1. Widget configuration
 2. Shortcode generator

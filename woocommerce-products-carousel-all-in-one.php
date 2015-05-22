@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Products Carousel all in one
 Plugin URI: http://www.teastudio.pl/produkt/woocommerce-products-carousel-all-in-one/
 Description: WooCommerce Products Carousel all in one is a widget to show new, featured or popular products in carousel by <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank" title="OWL Carousel homepage">OWL Carousel</a>.
-Version: 1.0.1
+Version: 1.0.2
 Author: Marcin Gierada
 Author URI: http://www.teastudio.pl/
 Author Email: m.gierada@teastudio.pl
@@ -34,7 +34,7 @@ function woocommerce_products_carousel_all_in_one_init() {
  */
 $wooCommerce_Products_Carousel_All_In_One = new WooCommerce_Products_Carousel_All_In_One();
 class WooCommerce_Products_Carousel_All_In_One {
-        const VERSION = '1.0.1';
+        const VERSION = '1.0.2';
         private $plugin_name = 'WooCommerce Products Carousel all in one';
         private $plugin_slug = 'woocommerce-products-carousel-all-in-one';
         private $options = array();
@@ -136,16 +136,10 @@ class WooCommerce_Products_Carousel_All_In_One {
                 wp_enqueue_style("owl.carousel.style");
                 
                 /*
-                 * include Font Awesome library
+                 * include Font Awesome library from Bootstrap CDN 
                  */
-                if( array_key_exists('include_font_awesome', $this->options) && $this->options['include_font_awesome'] == 1 ) {
-                        $name = "FontAwesome/font-awesome.min.css";
-                        $plugin_url = plugins_url( dirname(plugin_basename(__FILE__)) ). '/'.$name;
-                        $file = plugin_dir_path( __FILE__ ) . $name; 
-
-                        if ( @file_exists($file) ) {
-                                wp_enqueue_style( 'wp-font-awesome', $plugin_url, false );
-                        }
+                if( $this->options['include_font_awesome'] == 1 ) {
+                        wp_enqueue_style( 'wp-font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', false );
                 }                
         }  
         

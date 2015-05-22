@@ -23,6 +23,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                             'all_items'               => 10,
 
                             'show_title'              => 'true',
+                            'show_tags'               => 'false',
                             'show_price'              => 'true',
                             'show_description'        => 'true',
                             'show_add_to_cart_button' => 'true',
@@ -41,6 +42,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                             'nav_speed'               => 800,  
                             'dots'                    => 'true',
                             'dots_speed'              => 800,
+                            'margin'                  => 5,
                             'lazy_load'               => 'false',
                             'mouse_drag'              => 'true',
                             'mouse_wheel'             => 'true',
@@ -131,7 +133,14 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                  */
 
                 $loop = new WP_Query($sql_array);
-
+                
+                /*
+                 * check if there are more then one item
+                 */
+                if(!$loop->post_count > 1) {
+                    return false;
+                }
+                
                 /*
                  * products loop
                  */
@@ -145,6 +154,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
 
                         $title = '';
                         $description = '';
+                        $tags = '';
                         $price = '';
                         $buttons = '';
 
@@ -195,6 +205,15 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                         if ($params['show_description'] === 'true') {
                                 $description = '<div class="woocommerce-products-carousel-all-in-one-desc">'.$product_obj->post->post_excerpt.'</div>';
                         }      
+                        
+                        /*
+                         * show tags
+                         */          
+                        if ($params['show_tags'] == 'true') {
+                                $tags = '<p class="woocommerce-products-carousel-all-in-one-tags">';
+                                        $tags .= get_the_term_list(get_the_ID(), 'product_tag', '', ' ', '' );
+                                $tags .= '</p>';                                   
+                        }                         
 
                         /*
                          * show buttons
@@ -248,6 +267,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                                                 $out .= $title;
                                                 $out .= $description;
                                                 $out .= $price;
+                                                $out .= $tags; 
                                                 $out .= $buttons;              
                                         $out .= '</div>';
                                 $out .= '</div>';
@@ -293,7 +313,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                             autoplayHoverPause: '. $params['stop_on_hover'] .',
                             autoplayTimeout: '. $params['auto_play_timeout'] .',
                             autoplaySpeed:  '. $params['auto_play_timeout'] .',
-                            margin: 5,
+                            margin: '. $params['margin'] .',
                             stagePadding: 0,
                             freeDrag: false,      
                             mouseDrag: '. $params['mouse_drag'] .',
@@ -327,6 +347,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
         public static function prepareSettings($settings) {
                 $checkboxes = array(
                                     'show_title'              => 'true',
+                                    'show_tags'               => 'false',
                                     'show_price'              => 'true',
                                     'show_description'        => 'true',
                                     'show_add_to_cart_button' => 'true',

@@ -108,6 +108,12 @@ function insert_shortcode() {
                 <input type="checkbox" value="1" name="show_title" id="show_title" checked="checked">
             </td>
         </tr>	
+        <tr>
+            <td><?php _e('Show tags', 'woocommerce-products-carousel-all-in-one'); ?>:</td>
+            <td>
+                <input type="checkbox" value="1" name="show_tags" id="show_tags">
+            </td>
+        </tr>         
        <tr>
             <td align="left"><?php _e('Show price', 'woocommerce-products-carousel-all-in-one'); ?>:</td>
             <td>
@@ -181,6 +187,14 @@ function insert_shortcode() {
                 <input type="text" name="slide_by" id="slide_by" value="1" size="5">
                 <br />
                 <small><?php echo _e("Number of elements to slide.", "woocommerce-products-carousel-all-in-one") ?></small>                
+            </td>
+        </tr> 
+        <tr>
+            <td align="left"><?php _e('Margin', 'woocommerce-products-carousel-all-in-one'); ?>:</td>
+            <td>
+                <input type="text" name="margin" id="margin" value="5" size="5">[px]
+                <br />
+                <small><?php echo _e("Margin between items.", "woocommerce-products-carousel-all-in-one") ?></small>                  
             </td>
         </tr>          
         <tr>

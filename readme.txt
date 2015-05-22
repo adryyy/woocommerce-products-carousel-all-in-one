@@ -62,6 +62,10 @@ Folders tree should looks like this:
 4. Example of usage
 
 == Changelog ==
+= 1.0.2 =
+* new option to display product tags
+* new option to set margin between items
+* new way to include FontAwesome - from official Bootstrap CDN
 = 1.0.1 =
 * fixed verification requirements
 * fixed custom theme dir
@@ -70,6 +74,13 @@ Folders tree should looks like this:
 Initial release
 
 == Upgrade Notice ==
-
-= 1.0 =
+= 1.0.2 =
+* new option to display product tags
+* new option to set margin between items
+* new way to include FontAwesome - from official Bootstrap CDN
+= 1.0.1 =
+* fixed verification requirements
+* fixed custom theme dir
+* FAQ update
+= 1.0.0 =
 Initial release

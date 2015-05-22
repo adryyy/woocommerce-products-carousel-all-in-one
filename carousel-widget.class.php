@@ -121,6 +121,10 @@ function form($instance) {
         <label for="<?php echo $this->get_field_id("show_title"); ?>"><?php _e("Show title", "woocommerce-products-carousel-all-in-one"); ?></label>
     </p>
     <p>
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_tags"); ?>" name="<?php echo $this->get_field_name("show_tags"); ?>" <?php array_key_exists('show_tags', $instance) ? checked( (bool) $instance["show_tags"], true ): null; ?> value="1" />
+        <label for="<?php echo $this->get_field_id("show_tags"); ?>"><?php _e("Show tags", "woocommerce-products-carousel-all-in-one"); ?></label>
+    </p>       
+    <p>
         <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("show_price"); ?>" name="<?php echo $this->get_field_name("show_price"); ?>" <?php array_key_exists('show_price', $instance) ? checked( (bool) $instance["show_price"], true ): null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("show_price"); ?>"><?php _e("Show price", "woocommerce-products-carousel-all-in-one"); ?></label>
     </p>    
@@ -182,7 +186,12 @@ function form($instance) {
         <input size="5" id="<?php echo $this->get_field_id("slide_by"); ?>" name="<?php echo $this->get_field_name("slide_by"); ?>" type="text" value="<?php echo esc_attr($instance["slide_by"]); ?>" />
         <br />
         <small><?php echo _e("Number of elements to slide.", "woocommerce-products-carousel-all-in-one") ?></small>
-    </p>      
+    </p>
+    <p>
+        <label for="<?php echo $this->get_field_id("margin"); ?>"><?php _e("Margin", "woocommerce-products-carousel-all-in-one"); ?>:</label>
+        <br />
+        <input size="5" id="<?php echo $this->get_field_id("margin"); ?>" name="<?php echo $this->get_field_name("margin"); ?>" type="text" value="<?php echo esc_attr($instance["margin"]); ?>" />[px]
+    </p>     
     <p>
         <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id("loop"); ?>" name="<?php echo $this->get_field_name("loop"); ?>" <?php array_key_exists('loop', $instance) ? checked( (bool) $instance["loop"], true ): null; ?> value="1" />
         <label for="<?php echo $this->get_field_id("loop"); ?>"><?php _e("Inifnity loop", "woocommerce-products-carousel-all-in-one"); ?></label>

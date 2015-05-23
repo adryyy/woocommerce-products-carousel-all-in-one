@@ -125,6 +125,7 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                 } else if ($params['show_only'] == "featured") {
                         $sql_array['meta_key'] = '_featured';
                         $sql_array['orderby'] = 'date';
+						$sql_array['meta_value'] = 'yes';
                 } else {
                         $sql_array['orderby'] = 'date';    
                 }

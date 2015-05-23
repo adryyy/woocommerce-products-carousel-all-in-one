@@ -64,6 +64,7 @@ Folders tree should looks like this:
 == Changelog ==
 = 1.0.3 =
 * fixed FontAwesome include method
+* fixed sql query
 = 1.0.2 =
 * new option to display product tags
 * new option to set margin between items
@@ -78,6 +79,7 @@ Initial release
 == Upgrade Notice ==
 = 1.0.3 =
 * fixed FontAwesome include method
+* fixed sql query
 = 1.0.2 =
 * new option to display product tags
 * new option to set margin between items

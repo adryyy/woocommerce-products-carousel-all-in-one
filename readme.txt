@@ -62,6 +62,8 @@ Folders tree should looks like this:
 4. Example of usage
 
 == Changelog ==
+= 1.0.3 =
+* fixed FontAwesome include method
 = 1.0.2 =
 * new option to display product tags
 * new option to set margin between items
@@ -74,6 +76,8 @@ Folders tree should looks like this:
 Initial release
 
 == Upgrade Notice ==
+= 1.0.3 =
+* fixed FontAwesome include method
 = 1.0.2 =
 * new option to display product tags
 * new option to set margin between items

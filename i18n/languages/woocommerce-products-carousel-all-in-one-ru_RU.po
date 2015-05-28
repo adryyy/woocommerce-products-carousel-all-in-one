@@ -1,0 +1,336 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Products Carousel all in one\n"
+"POT-Creation-Date: 2015-05-21 20:37+0100\n"
+"PO-Revision-Date: 2015-05-25 15:33+0200\n"
+"Last-Translator: \n"
+"Language-Team:  <info@teastudio.pl>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: carousel-generator.class.php:95
+msgid "Theme - %.css stylesheet is missing."
+msgstr "Файл стилей темы - %.css не найден."
+
+#: carousel-generator.class.php:189
+msgid "From"
+msgstr "От"
+
+#: carousel-generator.class.php:233
+msgid "Add to cart"
+msgstr "В корзину"
+
+#: carousel-generator.class.php:234
+msgid "add to cart"
+msgstr "в корзину"
+
+#: carousel-generator.class.php:240
+msgid "Download"
+msgstr "Скачать"
+
+#: carousel-generator.class.php:240
+msgid "<i class=\"icon-download-alt icon-\"></i> download"
+msgstr "<i class=\"icon-download-alt icon-\"></i> скачать"
+
+#: carousel-generator.class.php:242 carousel-generator.class.php:261
+msgid "Show item"
+msgstr "Посмотреть товар"
+
+#: carousel-generator.class.php:242
+msgid "show item"
+msgstr "посмотреть товар"
+
+#: carousel-generator.class.php:247
+msgid "Show more items"
+msgstr "Показать еще"
+
+#: carousel-generator.class.php:247
+msgid "show more items"
+msgstr "показать еще"
+
+#: carousel-generator.class.php:324
+msgid "previous product"
+msgstr "предыдущий товар"
+
+#: carousel-generator.class.php:324
+msgid "next product"
+msgstr "следующий товар"
+
+#: carousel-widget.class.php:17
+msgid "Show new, featured or popular products in Owl Carousel"
+msgstr "Показывать новые, избранные или популярные товары в Owl Carousel"
+
+#: carousel-widget.class.php:18
+msgid "WooCommerce Products Carousel all in one"
+msgstr "WooCommerce Products Carousel all in one"
+
+#: carousel-widget.class.php:53
+msgid "Title"
+msgstr "Заголовок"
+
+#: carousel-widget.class.php:58 shortcode-generator.php:41
+msgid "Display options"
+msgstr "Опции отображения"
+
+#: carousel-widget.class.php:61 shortcode-generator.php:44
+msgid "Template"
+msgstr "Шаблон"
+
+#: carousel-widget.class.php:75 shortcode-generator.php:59
+msgid "Products limit"
+msgstr "Максимум товаров"
+
+#: carousel-widget.class.php:80 shortcode-generator.php:65
+msgid "Show only"
+msgstr "Показывать только"
+
+#: carousel-widget.class.php:84 shortcode-generator.php:69
+msgid "Newset"
+msgstr "Новые"
+
+#: carousel-widget.class.php:85 shortcode-generator.php:70
+msgid "Popular"
+msgstr "Популярные"
+
+#: carousel-widget.class.php:86 shortcode-generator.php:71
+msgid "Featured"
+msgstr "Избранные"
+
+#: carousel-widget.class.php:95 shortcode-generator.php:81
+msgid "Ordering"
+msgstr "Сортировка"
+
+#: carousel-widget.class.php:99 shortcode-generator.php:84
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: carousel-widget.class.php:100 shortcode-generator.php:85
+msgid "Descending"
+msgstr "По убыванию"
+
+#: carousel-widget.class.php:109 shortcode-generator.php:90
+msgid "Category IDs"
+msgstr "ID категорий"
+
+#: carousel-widget.class.php:112 shortcode-generator.php:94
+msgid "Please enter Category IDs with comma seperated."
+msgstr "Пожалуйста, введите ID категорий, разделенные запятыми."
+
+#: carousel-widget.class.php:117 shortcode-generator.php:102
+msgid "Product options"
+msgstr "Опции товара"
+
+#: carousel-widget.class.php:121 shortcode-generator.php:106
+msgid "Show title"
+msgstr "Показывать заголовок"
+
+#: carousel-widget.class.php:125 shortcode-generator.php:112
+msgid "Show tags"
+msgstr "Показывать теги"
+
+#: carousel-widget.class.php:129 shortcode-generator.php:118
+msgid "Show price"
+msgstr "Показывать цену"
+
+#: carousel-widget.class.php:133 shortcode-generator.php:124
+msgid "Show description"
+msgstr "Показывать описание"
+
+#: carousel-widget.class.php:137 shortcode-generator.php:130
+msgid "Show add to cart button"
+msgstr "Показывать кнопку добавления в корзину"
+
+#: carousel-widget.class.php:141 shortcode-generator.php:136
+msgid "Show more button"
+msgstr "Показывать кнопку \"показать товар\""
+
+#: carousel-widget.class.php:145 shortcode-generator.php:142
+msgid "Show more items button"
+msgstr "Показывать кнопку Больше товаров"
+
+#: carousel-widget.class.php:148 shortcode-generator.php:148
+msgid "Image source"
+msgstr "Источник изображения"
+
+#: carousel-widget.class.php:152 shortcode-generator.php:151
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: carousel-widget.class.php:153 shortcode-generator.php:152
+msgid "Medium"
+msgstr "Средний"
+
+#: carousel-widget.class.php:154 shortcode-generator.php:153
+msgid "Large"
+msgstr "Крупный"
+
+#: carousel-widget.class.php:155 shortcode-generator.php:154
+msgid "Full"
+msgstr "Полный"
+
+#: carousel-widget.class.php:164 shortcode-generator.php:159
+msgid "Image height"
+msgstr "Высота изображения"
+
+#: carousel-widget.class.php:169 shortcode-generator.php:165
+msgid "Image width"
+msgstr "Ширина изображения"
+
+#: carousel-widget.class.php:176 shortcode-generator.php:175
+msgid "Carousel options"
+msgstr "Опции карусели"
+
+#: carousel-widget.class.php:179 shortcode-generator.php:179
+msgid "Items to show"
+msgstr "Показывать товаров"
+
+#: carousel-widget.class.php:184 shortcode-generator.php:185
+msgid "Slide by"
+msgstr "Пролистывать по"
+
+#: carousel-widget.class.php:188 shortcode-generator.php:189
+msgid "Number of elements to slide."
+msgstr "Количество элементов для пролистывания"
+
+#: carousel-widget.class.php:191 shortcode-generator.php:193
+msgid "Margin"
+msgstr "Margin"
+
+#: carousel-widget.class.php:197 shortcode-generator.php:201
+msgid "Inifnity loop"
+msgstr "Зациклить карусель"
+
+#: carousel-widget.class.php:199 shortcode-generator.php:205
+msgid "Duplicate last and first items to get loop illusion."
+msgstr ""
+"Дублировать последний и первый элемент для создания иллюзии бесконечности"
+
+#: carousel-widget.class.php:203 shortcode-generator.php:209
+msgid "Auto play"
+msgstr "Автозапуск"
+
+#: carousel-widget.class.php:207 shortcode-generator.php:215
+msgid "Pause on mouse hover"
+msgstr "Остановить при наведении курсора"
+
+#: carousel-widget.class.php:210 shortcode-generator.php:221
+msgid "Autoplay interval timeout"
+msgstr "Автозапуск после паузы"
+
+#: carousel-widget.class.php:216
+msgid "show \"next\" and \"prev\" buttons"
+msgstr "Показывать кнопки \"назад\" и \"вперед\""
+
+#: carousel-widget.class.php:219 shortcode-generator.php:233
+msgid "Navigation speed"
+msgstr "Скорость навигации"
+
+#: carousel-widget.class.php:225 shortcode-generator.php:239
+msgid "Show dots navigation"
+msgstr "Показывать точки для навигации"
+
+#: carousel-widget.class.php:228 shortcode-generator.php:245
+msgid "Dots speed"
+msgstr "Скорость для точек"
+
+#: carousel-widget.class.php:234 shortcode-generator.php:251
+msgid "Delays loading of images"
+msgstr "Отложенная загрузка изображений"
+
+#: carousel-widget.class.php:236 shortcode-generator.php:255
+msgid ""
+"Images outside of viewport won't be loaded before user scrolls to them. "
+"Great for mobile devices to speed up page loadings."
+msgstr ""
+"Изображения за пределами видимой части карусели не будут загружаться до тех "
+"пор, пока пользователь не пролистает до них. Ускоряет время загрузки "
+"страницы, полезно для мобильных устройств."
+
+#: carousel-widget.class.php:240 shortcode-generator.php:259
+msgid "Mouse events"
+msgstr "События для мыши"
+
+#: carousel-widget.class.php:244 shortcode-generator.php:265
+msgid "Mousewheel scrolling"
+msgstr "Прокрутка скролом мыши"
+
+#: carousel-widget.class.php:248 shortcode-generator.php:271
+msgid "Touch events"
+msgstr "Поддержка тач интерфейса"
+
+#: carousel-widget.class.php:251 shortcode-generator.php:277
+msgid "Animation"
+msgstr "Анимация"
+
+#: shortcode-generator.php:197
+msgid "Margin between items."
+msgstr "Margin между товарами в карусели"
+
+#: shortcode-generator.php:227
+msgid "Show \"next\" and \"prev\" buttons"
+msgstr "Показывать кнопки \"назад\" и \"вперед\""
+
+#: shortcode-generator.php:325
+msgid "Insert Shortcode"
+msgstr "Вставить шорткод"
+
+#: woocommerce-products-carousel-all-in-one.php:112
+msgid ""
+"The <strong>WooCommerce Products Carousel all in one</strong> plugin require "
+"WooCommerce plugin. Please install or active this plugin."
+msgstr ""
+"<strong>WooCommerce Products Carousel all in one</strong> плагин требует "
+"установленного WooCommerce плагина. Пожалуйста, установите или активируйте "
+"WooCommerce."
+
+#: woocommerce-products-carousel-all-in-one.php:221
+msgid "Version"
+msgstr "Версия"
+
+#: woocommerce-products-carousel-all-in-one.php:225
+msgid "Need support?"
+msgstr "Нужна помощь?"
+
+#: woocommerce-products-carousel-all-in-one.php:229
+msgid "If you are having problems with this plugin, please contact by"
+msgstr ""
+"Если у вас возникли проблемы, пожалуйста свяжитесь с  нами на английском или "
+"польском языках"
+
+#: woocommerce-products-carousel-all-in-one.php:230
+msgid "For more information about this plugin, visit"
+msgstr "Для получения подробной информации, посетите"
+
+#: woocommerce-products-carousel-all-in-one.php:230
+msgid "plugin page"
+msgstr "страницу плагина"
+
+#: woocommerce-products-carousel-all-in-one.php:246
+msgid "Main settings"
+msgstr "Главные настройки"
+
+#: woocommerce-products-carousel-all-in-one.php:252
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: woocommerce-products-carousel-all-in-one.php:256
+msgid "Include Font Awesome"
+msgstr "Подключить Font Awesome"
+
+#: woocommerce-products-carousel-all-in-one.php:258
+msgid ""
+"Select this option if you would like to include <a href=\"http://fortawesome."
+"github.io/Font-Awesome/\" target=\"_blank\"><b>Font Awesome</b></a> "
+"stylesheet.<br />Uncheck if you are already using this library."
+msgstr ""
+"Выберите эту опцию, если вы хотите подключить стили <a href=\"http://"
+"fortawesome.github.io/Font-Awesome/\" target=\"_blank\"><b>Font Awesome</b></"
+"a>.<br />Снимите галочку, если вы уже используете эту библиотеку."

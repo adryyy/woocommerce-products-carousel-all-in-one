@@ -17,6 +17,7 @@ This plugin uses [OWL Carousel](http://www.owlcarousel.owlgraphic.com/) in new v
 
 * English (en_EN)
 * Polish (pl_PL)
+* Russian (ru_RU)
 
 
 For more information, check out [PLUGIN HOMEPAGE](http://www.teastudio.pl/en/product/woocommerce-products-carousel-all-in-one/).
@@ -31,6 +32,7 @@ I will be grateful for opinions and reviews.
 
 * English - by Marcin Gierada
 * Polish - by Marcin Gierada
+* Russian - thanks to [Oleg Grymashevich](http://skontenta.com)
 
 
 == Installation ==
@@ -62,6 +64,8 @@ Folders tree should looks like this:
 4. Example of usage
 
 == Changelog ==
+= 1.0.4 = 
+* new translation - Russian, thanks to Oleg Grymashevich
 = 1.0.3 =
 * fixed FontAwesome include method
 * fixed sql query
@@ -77,6 +81,8 @@ Folders tree should looks like this:
 Initial release
 
 == Upgrade Notice ==
+= 1.0.4 = 
+* new translation - Russian, thanks to Oleg Grymashevich
 = 1.0.3 =
 * fixed FontAwesome include method
 * fixed sql query

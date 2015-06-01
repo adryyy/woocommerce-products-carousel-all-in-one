@@ -105,7 +105,6 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                  */
                 $sql_array = array('post_type'      =>  'product',                
                                    'post_status'    =>  'publish',
-                                   'order'          =>  $params['ordering'],
                                    'posts_per_page' =>  $params['all_items'],
                                    'no_found_rows'  =>  1,
                                    'post__not_in' =>  array($post->ID) //exclude current post
@@ -129,11 +128,24 @@ class WooCommerceProductsCarouselAllInOneGenerator {
                 } else {
                         $sql_array['orderby'] = 'date';    
                 }
+                
+                if( in_array($params['ordering'], array('asc', 'desc')) ) {
+                        $sql_array['order'] = $params['ordering'];
+                }else {                    
+                        $sql_array['order'] = 'desc';
+                }                 
                 /*
                  * end sql query
                  */
 
                 $loop = new WP_Query($sql_array);
+                
+                /*
+                 * if random, we shuffle array
+                 */
+                if($params['ordering'] === "random") {
+                        shuffle($loop->posts);
+                }                
                 
                 /*
                  * check if there are more then one item

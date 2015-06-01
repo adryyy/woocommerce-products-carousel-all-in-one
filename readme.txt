@@ -45,6 +45,12 @@ I will be grateful for opinions and reviews.
 == Frequently Asked Questions ==
 If you've got any questions, don't hesitate to ask.
 
+= I made a update from a previous version. What now? =
+
+* If you're using on your website shortcode from this plugin, the best way is to delete old code and generate it again.
+* If you're using widget, you must update its options.
+* **Go to the plugin settings page and see if there are any notifications**
+
 
 = How can I add custom theme? =
 
@@ -64,6 +70,8 @@ Folders tree should looks like this:
 4. Example of usage
 
 == Changelog ==
+= 1.0.5 =
+* new option to order - random lists
 = 1.0.4 = 
 * new translation - Russian, thanks to Oleg Grymashevich
 = 1.0.3 =
@@ -81,6 +89,8 @@ Folders tree should looks like this:
 Initial release
 
 == Upgrade Notice ==
+= 1.0.5 =
+* new option to order - random lists
 = 1.0.4 = 
 * new translation - Russian, thanks to Oleg Grymashevich
 = 1.0.3 =

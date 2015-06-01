@@ -97,7 +97,8 @@ function form($instance) {
         <select name="<?php echo $this->get_field_name("ordering"); ?>" id="<?php echo $this->get_field_id("ordering"); ?>" class="select">
           <?php            
             $ordering_list = array("asc" => __("Ascending", "woocommerce-products-carousel-all-in-one"),
-                                   "desc" => __("Descending", "woocommerce-products-carousel-all-in-one")
+                                   "desc" => __("Descending", "woocommerce-products-carousel-all-in-one"),
+                                   "random" => __("Random", "woocommerce-products-carousel-all-in-one")
                                   );
             foreach($ordering_list as $key => $list) {
                 echo "<option value=\"" .$key ."\" ". (esc_attr($instance["ordering"]) == $key ? 'selected="selected"' : null) .">". $list ."</option>";

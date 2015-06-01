@@ -83,6 +83,7 @@ function insert_shortcode() {
                 <select name="ordering" id="ordering" class="select">
                     <option value="asc"><?php _e("Ascending", 'woocommerce-products-carousel-all-in-one') ?></option>
                     <option value="desc"><?php _e("Descending", 'woocommerce-products-carousel-all-in-one') ?></option>              
+                    <option value="random"><?php _e("Random", 'woocommerce-products-carousel-all-in-one') ?></option>   
                 </select>	
             </td>
         </tr>   

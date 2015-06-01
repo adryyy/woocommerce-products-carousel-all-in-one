@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Products Carousel all in one
 Plugin URI: http://www.teastudio.pl/produkt/woocommerce-products-carousel-all-in-one/
 Description: WooCommerce Products Carousel all in one is a widget to show new, featured or popular products in carousel by <a href="http://www.owlcarousel.owlgraphic.com/" target="_blank" title="OWL Carousel homepage">OWL Carousel</a>.
-Version: 1.0.4
+Version: 1.0.5
 Author: Marcin Gierada
 Author URI: http://www.teastudio.pl/
 Author Email: m.gierada@teastudio.pl
@@ -34,7 +34,7 @@ function woocommerce_products_carousel_all_in_one_init() {
  */
 $wooCommerce_Products_Carousel_All_In_One = new WooCommerce_Products_Carousel_All_In_One();
 class WooCommerce_Products_Carousel_All_In_One {
-        const VERSION = '1.0.4';
+        const VERSION = '1.0.5';
         private $plugin_name = 'WooCommerce Products Carousel all in one';
         private $plugin_slug = 'woocommerce-products-carousel-all-in-one';
         private $options = array();
